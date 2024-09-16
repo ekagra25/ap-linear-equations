@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>A.P. Guru Slides</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        
+        .carousel {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+        }
+        
+        .carousel img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            pointer-events: none;
+        }
+        
+        .carousel .prev, .carousel .next {
+            position: absolute;
+            top: 0;
+            width: 50%;
+            height: 100%;
+        }
+        
+        .carousel .prev {
+            left: 0;
+        }
+        
+        .carousel .next {
+            right: 0;
+        }
+
+        .carousel .prev button, .carousel .next button {
+            position: absolute;
+            top: 50%;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            width: 40px;
+            height: 40px;
+            padding: 0;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+
+        .carousel .prev button {
+            left: 1rem;
+        }
+
+        .carousel .next button {
+            right: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="carousel">
+        <img src="./1.webp" alt="1">
+        <img src="./2.webp" alt="2">
+        <img src="./3.webp" alt="3">
+        <img src="./4.webp" alt="4">
+        <img src="./5.webp" alt="5">
+        <img src="./6.webp" alt="6">
+        <img src="./7.webp" alt="7">
+        <img src="./8.webp" alt="8">
+        <img src="./9.webp" alt="9">
+        <img src="./10.webp" alt="10">
+        <img src="./11.webp" alt="11">
+        <img src="./12.webp" alt="12">
+        <img src="./13.webp" alt="13">
+        <img src="./14.webp" alt="14">
+        <img src="./15.webp" alt="15">
+        <img src="./16.webp" alt="16">
+        <img src="./17.webp" alt="17">
+        <img src="./18.webp" alt="18">
+        <img src="./19.webp" alt="19">
+        <img src="./20.webp" alt="20">
+        <img src="./21.webp" alt="21">
+        <img src="./22.webp" alt="22">
+        <img src="./23.webp" alt="23">
+        <img src="./24.webp" alt="24">
+        <img src="./25.webp" alt="25">
+        <img src="./26.webp" alt="26">
+        <img src="./27.webp" alt="27">
+        <img src="./28.webp" alt="28">
+        <img src="./29.webp" alt="29">
+        <img src="./30.webp" alt="30">
+        <img src="./31.webp" alt="31">
+        <img src="./32.webp" alt="32">
+        <img src="./33.webp" alt="33">
+        <img src="./34.webp" alt="34">
+        <img src="./35.webp" alt="35">
+        <img src="./36.webp" alt="36">
+        <img src="./37.webp" alt="37">
+        <img src="./38.webp" alt="38">
+        <img src="./39.webp" alt="39">
+        <img src="./40.webp" alt="40">
+        <img src="./41.webp" alt="41">
+        <img src="./42.webp" alt="42">
+        <img src="./43.webp" alt="43">
+        <img src="./44.webp" alt="44">
+        <img src="./45.webp" alt="45">
+        <img src="./46.webp" alt="46">
+        <img src="./47.webp" alt="47">
+        <img src="./48.webp" alt="48">
+        <img src="./49.webp" alt="49">
+        <img src="./50.webp" alt="50">
+        <img src="./51.webp" alt="51">
+        <img src="./52.webp" alt="52">
+        <img src="./53.webp" alt="53">
+        <img src="./54.webp" alt="54">
+        <img src="./55.webp" alt="55">
+        <img src="./56.webp" alt="56">
+        <img src="./57.webp" alt="57">
+        <img src="./58.webp" alt="58">
+        <img src="./59.webp" alt="59">
+        <img src="./60.webp" alt="60">
+        <img src="./61.webp" alt="61">
+        <img src="./62.webp" alt="62">
+        <img src="./63.webp" alt="63">
+        <img src="./64.webp" alt="64">
+        <img src="./65.webp" alt="65">
+        <img src="./66.webp" alt="66">
+        <img src="./67.webp" alt="67">
+        <img src="./68.webp" alt="68">
+        <img src="./69.webp" alt="69">
+        <img src="./70.webp" alt="70">
+        <div class="prev">
+            <button>
+                <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15 6L9.21261 11.7874V11.7874C9.09519 11.9048 9.09519 12.0952 9.21261 12.2126V12.2126L15 18" stroke="#323232" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+        </div>
+        <div class="next">
+            <button>
+                <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="transform: rotate(180deg);">
+                    <path d="M15 6L9.21261 11.7874V11.7874C9.09519 11.9048 9.09519 12.0952 9.21261 12.2126V12.2126L15 18" stroke="#323232" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+        </div>
+    </div>
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const variant = urlParams.get('variant');
+        const carousel = document.querySelector('.carousel');
+        const prevButton = variant === 'button' ? document.querySelector('.prev button') : document.querySelector('.prev');
+        const nextButton = variant === 'button' ? document.querySelector('.next button') : document.querySelector('.next');
+        let currentIndex = 0;
+        const images = carousel.querySelectorAll('img');
+        
+        function showImage(index) {
+            images.forEach((image, i) => {
+                if (i === index) {
+                    image.style.display = 'block';
+                } else {
+                    image.style.display = 'none';
+                }
+            });
+        }
+        
+        function showNextImage() {
+            currentIndex = (currentIndex + 1) % images.length;
+            showImage(currentIndex);
+        }
+        
+        function showPrevImage() {
+            currentIndex = (currentIndex - 1 + images.length) % images.length;
+            showImage(currentIndex);
+        }
+        
+        // Function to handle button navigation
+        function handleButtonNavigation() {
+            prevButton.addEventListener('click', showPrevImage);
+            nextButton.addEventListener('click', showNextImage);
+        }
+        
+        // Function to handle swipe navigation
+        function handleSwipeNavigation() {
+            let startX;
+            carousel.addEventListener('touchstart', (event) => {
+                startX = event.touches[0].clientX;
+            });
+        
+            carousel.addEventListener('touchend', (event) => {
+                const endX = event.changedTouches[0].clientX;
+                const diffX = startX - endX;
+        
+                if (diffX > 0) {
+                    showNextImage();
+                } else if (diffX < 0) {
+                    showPrevImage();
+                }
+            });
+        }
+        
+        // Function to handle touch navigation
+        function handleTouchNavigation() {
+            prevButton.addEventListener('click', showPrevImage);
+            nextButton.addEventListener('click', showNextImage);
+        }
+        
+        // Handle navigation based on the variant
+        if (variant === 'button') {
+            handleButtonNavigation();
+        } else{
+            document.querySelector('.prev button').style.display = 'none';
+            document.querySelector('.next button').style.display = 'none';
+            if (variant === 'swipe') {
+                handleSwipeNavigation();
+            } else {
+                handleTouchNavigation();
+            }
+        }
+    </script>
+</body>
+</html>
